@@ -2,3 +2,4 @@ flask-cors==4.0.0
 flask-restful==0.3.10
 pytest==7.0.1
 pre-commit==2.21.0
+pillow==8.3.1

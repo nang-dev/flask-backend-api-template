@@ -70,17 +70,19 @@
    ```
 
 3. ```sh
-   python main.py
+   python app.py
    ```
 
 4. Trigger endpoints with:
    ```sh
    curl -X 'GET' \
-   'http://127.0.0.1:8000/health'
+   'http://127.0.0.1:8000/health' \
    -H 'accept: application/json'
    ```
 
-5. Run tests with:
+5. Run tests with:   curl -X 'GET' \
+   'http://127.0.0.1:8000/health' \
+   -H 'accept: application/json'
    ```sh
    python -m pytest -p no:warnings
    ```
