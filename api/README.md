@@ -1,4 +1,4 @@
-# [🛒.ai]: Backend API
+# Project Template: Backend API
 
 ### 🛠️ Directory Structure
 
@@ -9,14 +9,6 @@
     ├── __init__.py          # API package initialization
     ├── app                  # Main application package
     │   ├── __init__.py      # App package initialization
-    │   ├── ai               # AI-related services
-    │   │   ├── ai_service.py
-    │   │   ├── image
-    │   │   │   └── image_service.py
-    │   │   ├── shopping
-    │   │   │   └── shopping_service.py
-    │   │   └── video
-    │   │       └── video_service.py
     │   ├── config.py        # Configuration file
     │   ├── data
     │   │   └── database_service.py # Database service
