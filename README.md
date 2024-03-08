@@ -1,4 +1,4 @@
-# 🚀  Flask Back-end API Project Template
+# 🚀  Flask Backend API Project Template
 
 When you have a Python project that runs locally but want to turn it into a webapp, you have to make it into an API. This is a template that takes care of this for you.
 
