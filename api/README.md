@@ -12,9 +12,6 @@
     │   ├── config.py        # Configuration file
     │   ├── data
     │   │   └── database_service.py # Database service
-    │   ├── entry
-    │   │   ├── __init__.py
-    │   │   └── entry_service.py # All endpoints will enter here to be triaged to the appropriate path
     │   ├── health
     │   │   ├── __init__.py
     │   │   └── health_service.py # Health check service
@@ -28,28 +25,6 @@
         ├── conftest.py      # Pytest configuration
         └── test_routes.py   # Tests for the routes
 ```
-
-## 🧭 How To Run (Containerized - RECOMMENDED)
-
-1. ```sh
-   docker image build -t flask_docker .
-   ```
-
-2. ```sh
-   docker run -d -p 8000:8000 flask_docker
-   ```
-
-3. Trigger endpoints with:
-   ```sh
-   curl -X 'GET' \
-   'http://127.0.0.1:8000/health'
-   -H 'accept: application/json'
-   ```
-
-4. Run tests with:
-   ```sh
-   docker exec <container_id> pytest -p no:warnings
-   ```
 
 ## 🧭 How To Run (Local)
 
